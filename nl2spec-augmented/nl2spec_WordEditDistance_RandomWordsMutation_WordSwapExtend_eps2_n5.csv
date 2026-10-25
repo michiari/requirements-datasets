@@ -1,0 +1,11 @@
+requirement,formula,Original_Requirement,Input_Distance_To_Original_Input,Mutation_Number,Modification,Transformation,Input_Distance_Measure,Max_Input_Distance_To_Original_Input,Num_Mutations
+"Once a happened, b will not happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,1,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+"Once a happened, b will not happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,2,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+"Once a happened, b will not happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,3,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+"Once a happened, b will not happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,4,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+"Once a happened, b will not happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,5,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+a and b will not occur at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,1,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+a and b will not occur at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,2,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+a and b will not occur at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,3,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+a and b will not occur at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,4,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5
+a and b will not occur at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,5,RandomWordsMutation,WordSwapExtend,WordEditDistance,2.0,5

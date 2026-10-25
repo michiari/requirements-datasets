@@ -1,0 +1,136 @@
+requirement,formula,Original_Requirement,Input_Distance_To_Original_Input,Mutation_Number,Modification,Transformation,Input_Distance_Measure,Max_Input_Distance_To_Original_Input,Num_Mutations
+Every a is eventually fit by a e.,G(a -> F e),Every a is eventually followed by a e.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a is eventually fit by a e.,G(a -> F e),Every a is eventually followed by a e.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a equals eventually followed by a e.,G(a -> F e),Every a is eventually followed by a e.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a is eventually fit by a e.,G(a -> F e),Every a is eventually followed by a e.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a equals eventually followed by a e.,G(a -> F e),Every a is eventually followed by a e.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is never the case that a and b hold at the same era.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is never the case that a and b hold at the same era.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is never the case that a and b call at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is never the case that a and b call at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is never the case that a and b hold at the same era.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b is caused three steps after.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b is caused three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b equals enabled three feet later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b is enabled three feet after.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b is enabled three feet after.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"e must hold completely until from some point on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"e must hold completely until from some point on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"e must hold completely until from some point on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"e must hold completely until from some point on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"e must hold completely until from some point on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to call somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to hold somewhere early.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to hold somewhere early.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to call somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to call somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b occupation as well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b occupation as well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b occupation as well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b occupation as well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b occupation as well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Both a and b hold in every era step.,G (a && b),Both a and b hold in every time step.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Both a and b call in every time step.,G (a && b),Both a and b hold in every time step.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Both a and b call in every time step.,G (a && b),Both a and b hold in every time step.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Both a and b hold in every era step.,G (a && b),Both a and b hold in every time step.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Both a and b call in every time arcade.,G (a && b),Both a and b hold in every time step.,2.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c does not call.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c does not call.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c does not call.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c does not call.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c does not call.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually fit by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually fit by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually fit by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually fit by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually fit by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If a holds infinitely often, then b holds infinitely frequently as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If a holds infinitely often, then b watches wide often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If a holds infinitely often, then b holds infinitely frequently as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If a occupation infinitely often, then b holds infinitely often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"If a occupation infinitely often, then b holds infinitely often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a never holds from some zone in time on.,F G ! a,a never holds from some point in time on.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a never holds from some point in era on.,F G ! a,a never holds from some point in time on.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a never holds from some zone in time on.,F G ! a,a never holds from some point in time on.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a never holds from some point in era on.,F G ! a,a never holds from some point in time on.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a never holds from some point in era on.,F G ! a,a never holds from some point in time on.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them holds in every time arcade.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them holds in every era step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them holds in every time arcade.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them watches in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them watches in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can on happen if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can only occur if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can on happen if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can only occur if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can only occur if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Once a happened, b won't occur again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Once a happened, b won't occur again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Once a happened, b won't occur again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Once a happened, b won't occur again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Once a happened, b won't occur again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b won't occur at the same era.,G !(a & b),a and b won't occur at the same time.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b won't occur at the same era.,G !(a & b),a and b won't occur at the same time.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b won't rise at the same time.,G !(a & b),a and b won't occur at the same time.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b won't rise at the same time.,G !(a & b),a and b won't occur at the same time.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a and b won't rise at the same time.,G !(a & b),a and b won't occur at the same time.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then c watches one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then c holds one arcade after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then c holds one arcade after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then c watches one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds and b watches in the next step, then c holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually from the next arcade on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually from the next arcade on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually from the next arcade on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually from the next arcade on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually from the next arcade on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a watches in every fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a watches in every fifth arcade.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a holds in every fifth arcade.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a watches in every fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a watches in every fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Either a holds infinitely often or b watches in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Either a holds infinitely often or b watches in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Either a holds infinitely often or b holds in the next arcade.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Either a holds infinitely often or b watches in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Either a holds infinitely often or b holds in the next arcade.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a will hold at all works.,G (a),a will hold at all instances.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a will call at comprehensive instances.,G (a),a will hold at all instances.,2.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a will call at comprehensive instances.,G (a),a will hold at all instances.,2.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a will hold at comprehensive instances.,G (a),a will hold at all instances.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a will hold at comprehensive instances.,G (a),a will hold at all instances.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the next two feet.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the next two feet.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the next two feet.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the next two feet.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the next two feet.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+If a holds b will ultimately hold.,G (a -> F b),If a holds b will eventually hold.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+If a holds b will ultimately hold.,G (a -> F b),If a holds b will eventually hold.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+If a holds b will ultimately call.,G (a -> F b),If a holds b will eventually hold.,2.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+If a holds b will ultimately hold.,G (a -> F b),If a holds b will eventually hold.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+If a holds b will ultimately hold.,G (a -> F b),If a holds b will eventually hold.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a must always hold, but if is execeeds, it cause two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a must always hold, but if is execeeds, it cause two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a must always hold, but if equals execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a must always hold, but if equals execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+"a must always call, but if is execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can only call every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can only call every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can on hold every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can on call every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+a can on hold every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a is fit by a b.,G ( a -> X b),Every a is followed by a b.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a is fit by a b.,G ( a -> X b),Every a is followed by a b.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a is fit by a b.,G ( a -> X b),Every a is followed by a b.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a equals followed by a b.,G ( a -> X b),Every a is followed by a b.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Every a is fit by a b.,G ( a -> X b),Every a is followed by a b.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Eventually a and b call.,F (a && b),Eventually a and b hold.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Eventually a and b call.,F (a && b),Eventually a and b hold.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Eventually a and b call.,F (a && b),Eventually a and b hold.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Eventually a and b call.,F (a && b),Eventually a and b hold.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+Eventually a and b call.,F (a && b),Eventually a and b hold.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It equals always the case that a is the same as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,1,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is forever the case that a is the same as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,2,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is always the case that a is the same as b in the next arcade.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,3,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is forever the case that a is the same as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,4,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5
+It is forever the case that a is the same as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,5,RandomWordsMutation,WordSwapHowNet,WordEditDistance,2.0,5

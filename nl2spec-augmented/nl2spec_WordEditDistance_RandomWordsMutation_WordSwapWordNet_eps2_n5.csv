@@ -1,0 +1,181 @@
+requirement,formula,Original_Requirement,Input_Distance_To_Original_Input,Mutation_Number,Modification,Transformation,Input_Distance_Measure,Max_Input_Distance_To_Original_Input,Num_Mutations
+Every amp personify eventually followed by a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every amp personify eventually followed by a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a personify eventually followed by a tocopherol.,G(a -> F e),Every a is eventually followed by a e.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a is eventually come by a tocopherol.,G(a -> F e),Every a is eventually followed by a e.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a is eventually come past a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is never the causa that a and b hold at the Lapp time.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It personify never the case that a and b hold at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+IT is never the case that a and b hold at the same sentence.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is never the case that amp and boron hold at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is ne'er the case that a and b hold at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b is enabled threesome stride later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a personify enabled, b is enable three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a is enabled, b is enabled threesome steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a is enabled, boron is enable three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a is enable, b is enabled threesome steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"e must hold everywhere until from some point on, ergocalciferol control infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"e must hold everywhere until from some point on, d control infinitely much.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"e must hold everywhere until from some signal along, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"e must control everywhere until from some signal on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"e moldiness hold everywhere until from some point on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b control astatine some point, a has to hold somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds at some signal, a make to hold somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to hold someplace beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds at some point, amp has to control somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds at some point, a has to control somewhere advance.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds as swell.",G(a -> b),"Whenever a holds, b holds as well.",1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b control amp well.",G(a -> b),"Whenever a holds, b holds as well.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a control, b holds as well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds amp well.",G(a -> b),"Whenever a holds, b holds as well.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever amp control, b holds as well.",G(a -> b),"Whenever a holds, b holds as well.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both amp and b hold in every sentence step.,G (a && b),Both a and b hold in every time step.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both amp and b control in every time step.,G (a && b),Both a and b hold in every time step.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both amp and b hold inward every time step.,G (a && b),Both a and b hold in every time step.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and b control in every time step.,G (a && b),Both a and b hold in every time step.,1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and b hold inward every time step.,G (a && b),Both a and b hold in every time step.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a holds always and whenever b control, c does not hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a holds always and whenever boron control, c does not hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a control always and whenever b holds, c does not hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a holds always and whenever b control, cytosine does not hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c does non hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually followed by amp b, so c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If it is the case that every a is eventually followed past a b, then c needs to holds endlessly often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If it is the case that every a personify eventually followed by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If it is the case that every amp is eventually followed by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If it is the case that every amp personify eventually followed by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If amp holds infinitely often, then boron holds infinitely often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If amp holds infinitely often, then b holds infinitely often amp well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If a holds infinitely often, then b holds infinitely often amp swell.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If a holds infinitely often, so b holds infinitely often amp well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If a control infinitely much, then b holds infinitely often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either a surgery b control infinitely often.,G F a || G F b,Either a or b holds infinitely often.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+either amp or b holds infinitely often.,G F a || G F b,Either a or b holds infinitely often.,1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either a or boron holds endlessly often.,G F a || G F b,Either a or b holds infinitely often.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either amp or b holds infinitely much.,G F a || G F b,Either a or b holds infinitely often.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either a surgery b holds infinitely much.,G F a || G F b,Either a or b holds infinitely often.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a ne'er holds from some point in time on.,F G ! a,a never holds from some point in time on.,1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a ne'er holds from some point in time along.,F G ! a,a never holds from some point in time on.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a never holds from around signal in time on.,F G ! a,a never holds from some point in time on.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a never holds from some signal in sentence on.,F G ! a,a never holds from some point in time on.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp never control from some point in time on.,F G ! a,a never holds from some point in time on.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a and b fare not hold, c control eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever amp and b do not hold, cytosine holds eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a and b do not control, c control eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever amp and b do not control, c holds eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a and b fare not control, c holds eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp and b never occur at the same time but one of them holds in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and b ne'er occur astatine the same time but one of them holds in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them holds inward every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and boron never occur astatine the same time but one of them holds in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and b never occur at the same time but one of them holds in every sentence step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever the inputs a and b are the Lapp, the outputs c and d are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever the inputs amp and b are the same, the outputs c and d are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever the inputs a and b are the same, the outputs c and ergocalciferol are the Lapp.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever the inputs a and b are the same, the outputs c and ergocalciferol are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever the remark a and b are the same, the outputs c and d are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a can only happen if boron happend before.,(! a) U b,a can only happen if b happend before.,1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp can only happen if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp can sole happen if b happend before.,(! a) U b,a can only happen if b happend before.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a can only materialise if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a can only materialise if b happend before.,(! a) U b,a can only happen if b happend before.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"erstwhile a happened, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Once a materialise, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"erstwhile amp happened, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"erstwhile a happened, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Once a materialise, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a release boron.,(b U (b & ! a)) | G b,a releases b.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp release b.,(b U (b & ! a)) | G b,a releases b.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a release boron.,(b U (b & ! a)) | G b,a releases b.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp release b.,(b U (b & ! a)) | G b,a releases b.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp release b.,(b U (b & ! a)) | G b,a releases b.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and boron won't occur at the same sentence.,G !(a & b),a and b won't occur at the same time.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and boron won't occur at the same time.,G !(a & b),a and b won't occur at the same time.,1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and b won't occur at the Lapp time.,G !(a & b),a and b won't occur at the same time.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and b won't occur astatine the same time.,G !(a & b),a and b won't occur at the same time.,1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a and boron won't occur at the same time.,G !(a & b),a and b won't occur at the same time.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next stride, then c holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds inward the next step, then c control one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then cytosine holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next stride, then c holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then cytosine holds unrivaled step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b control finally from the next step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b control eventually from the next step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually from the succeeding step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b control eventually from the next step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, boron holds eventually from the next step along.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a holds in every 5th stride.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp holds inward every fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp holds inward every fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp holds in every fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp holds in every fifth stride.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either a holds infinitely much or b holds in the next stride.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either a holds endlessly often or boron holds in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+either a holds infinitely often or b holds inward the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+either a holds infinitely often or boron holds in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Either a holds infinitely often or b control in the next stride.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a will hold astatine all exemplify.,G (a),a will hold at all instances.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp will hold astatine all instances.,G (a),a will hold at all instances.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp will hold at all exemplify.,G (a),a will hold at all instances.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a will hold at completely exemplify.,G (a),a will hold at all instances.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a will hold astatine completely instances.,G (a),a will hold at all instances.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the next ii steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the succeeding two stride.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b moldiness hold in the next two steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold inward the succeeding two steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"Whenever a holds, b must hold inward the next two steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"One of the following aps leave hold at all instances: amp,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"One of the following aps will hold astatine all instances: amp,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"unrivaled of the following aps will hold at all exemplify: a,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"One of the following aps leave hold at completely instances: a,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"One of the following aps will hold at completely instances: a,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+If a control b will finally hold.,G (a -> F b),If a holds b will eventually hold.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+If amp control b will eventually hold.,G (a -> F b),If a holds b will eventually hold.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+If a holds b will eventually control.,G (a -> F b),If a holds b will eventually hold.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+If a holds b will finally control.,G (a -> F b),If a holds b will eventually hold.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+If a holds b will finally control.,G (a -> F b),If a holds b will eventually hold.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"amp must always control, but if is execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a must ever hold, but if is execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"amp must always hold, but if is execeeds, it grant two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a must always control, but if is execeeds, IT allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"a moldiness always hold, but if is execeeds, IT allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+non a holds at well-nigh two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+non a holds at most ii timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+non a holds astatine most two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+not a control at well-nigh two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+not amp holds at well-nigh two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a seat only hold every threesome timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp can only hold every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a can sole hold every threesome timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a seat only hold every threesome timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+amp can only hold every threesome timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a is come by a boron.,G ( a -> X b),Every a is followed by a b.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a is followed past amp b.,G ( a -> X b),Every a is followed by a b.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a is come past a b.,G ( a -> X b),Every a is followed by a b.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a personify come by a b.,G ( a -> X b),Every a is followed by a b.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Every a personify followed past a b.,G ( a -> X b),Every a is followed by a b.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+eventually a and b hold.,F (a && b),Eventually a and b hold.,0.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Eventually amp and boron hold.,F (a && b),Eventually a and b hold.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Eventually a and boron hold.,F (a && b),Eventually a and b hold.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Eventually amp and b control.,F (a && b),Eventually a and b hold.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Eventually a and boron hold.,F (a && b),Eventually a and b hold.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and b hold finally.,F a && F b,Both a and b hold eventually.,1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and b control finally.,F a && F b,Both a and b hold eventually.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and b control eventually.,F a && F b,Both a and b hold eventually.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and boron hold finally.,F a && F b,Both a and b hold eventually.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+Both a and b control finally.,F a && F b,Both a and b hold eventually.,2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is always the case that a personify the same as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is always the case that a is the same amp b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is always the causa that a is the same as b inward the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is always the case that a is the same as b in the succeeding stride.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+It is always the case that a is the Lapp as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds then, in the next step, c holds until amp control or always c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds then, in the next step, cytosine holds until a control or always c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds then, in the succeeding step, c control until a holds or always c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds then, in the next stride, c holds until a holds or ever c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+"If b holds then, in the next stride, cytosine holds until a holds or always c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a holds until boron holds surgery always a holds.,(a U b) || G a,a holds until b holds or always a holds.,2.0,1,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a holds until boron holds or always amp holds.,(a U b) || G a,a holds until b holds or always a holds.,2.0,2,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a control until b holds or always a holds.,(a U b) || G a,a holds until b holds or always a holds.,1.0,3,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a holds until b holds or ever a holds.,(a U b) || G a,a holds until b holds or always a holds.,1.0,4,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5
+a holds until b holds surgery always a holds.,(a U b) || G a,a holds until b holds or always a holds.,1.0,5,RandomWordsMutation,WordSwapWordNet,WordEditDistance,2.0,5

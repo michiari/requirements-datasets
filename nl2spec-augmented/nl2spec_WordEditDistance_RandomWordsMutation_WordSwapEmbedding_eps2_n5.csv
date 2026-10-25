@@ -1,0 +1,181 @@
+requirement,formula,Original_Requirement,Input_Distance_To_Original_Input,Mutation_Number,Modification,Transformation,Input_Distance_Measure,Max_Input_Distance_To_Original_Input,Num_Mutations
+Every a exists eventually tracked by a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Every a is ultimately tracked by a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Everything a is eventually followed by a f.,G(a -> F e),Every a is eventually followed by a e.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Everything una is eventually followed by a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Everything una is eventually followed by a e.,G(a -> F e),Every a is eventually followed by a e.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is never the cases that a and b hold at the same times.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is jamais the case that a und b hold at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is never the cases that a and ii hold at the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is never du case that a and b hold under the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is never the cases that a and b hold under the same time.,G(!(a & b)),It is never the case that a and b hold at the same time.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever una is enabled, b exists enabled three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a is enabled, b is enable three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever una is enable, b is enabled three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a is enabled, b is enabled three step later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a is enable, b is enabled three steps later.",G(a -> X (X (X b))),"Whenever a is enabled, b is enabled three steps later.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"e gotta hold everywhere until from some point on, d holds infinitely frequently.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"e must hold everywhere until from some point orn, d holds immeasurably often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"e must hold everywhere until from some point on, d held infinitely frequently.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"e must held everywhere until from some kok on, d holds infinitely often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"e must hold everywhere until from some kok on, d holds immeasurably often.",e U (G (F d)),"e must hold everywhere until from some point on, d holds infinitely often.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds at certain point, a has to held somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds at certain kok, a has to hold somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds under some kok, a has to hold somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b held at some kok, a has to hold somewhere beforehand.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds at some point, a ha to hold somewhere earlier.",(F b) -> (!b U (a & !b)),"If b holds at some point, a has to hold somewhere beforehand.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a holds, b held as well.",G(a -> b),"Whenever a holds, b holds as well.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever una holds, ii holds as well.",G(a -> b),"Whenever a holds, b holds as well.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b holds because good.",G(a -> b),"Whenever a holds, b holds as well.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a holds, b held as well.",G(a -> b),"Whenever a holds, b holds as well.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b held because well.",G(a -> b),"Whenever a holds, b holds as well.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Both a and b hold in everything times step.,G (a && b),Both a and b hold in every time step.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Both una and ii hold in every time step.,G (a && b),Both a and b hold in every time step.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether a and b hold in everything time step.,G (a && b),Both a and b hold in every time step.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether a and b hold in every times step.,G (a && b),Both a and b hold in every time step.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether a und b hold in every time step.,G (a && b),Both a and b hold in every time step.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a holds perpetually and whenever b holds, c does not held.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a holds perpetually and whenever ii holds, c does not hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a holds always and whenever b holds, c ai not held.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a holds always and whenever b holds, jim does nope hold.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a held always and whenever b holds, c does not held.",G a && G(b -> !c),"a holds always and whenever b holds, c does not hold.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If it is the case that every a is eventually followed by a ii, then jim needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If it is the case that every a is eventually followed by a b, then c needs to held infinitely frequently.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If it is du case that every a is eventually followed by a ii, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Unless it is the case whose every a is eventually followed by a b, then c needs to holds infinitely often.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If it exists the case that every a is eventually followed by a b, then c needs to holds infinitely frequently.",G(a -> F b) -> G F c,"If it is the case that every a is eventually followed by a b, then c needs to holds infinitely often.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If una holds infinitely often, then ii holds infinitely often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If a holds infinitely often, then b held immeasurably often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If una held infinitely often, then b holds infinitely often as well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If a holds infinitely often, then b holds infinitely frequently as good.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If a held infinitely often, then b holds infinitely often because well.",G F a -> G F b,"If a holds infinitely often, then b holds infinitely often as well.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either una or ii holds infinitely often.,G F a || G F b,Either a or b holds infinitely often.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Nor a or b holds immeasurably often.,G F a || G F b,Either a or b holds infinitely often.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either a or ii holds infinitely frequently.,G F a || G F b,Either a or b holds infinitely often.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either a or b holds immeasurably frequently.,G F a || G F b,Either a or b holds infinitely often.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either una orr b holds infinitely often.,G F a || G F b,Either a or b holds infinitely often.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una never holds from some point in time orn.,F G ! a,a never holds from some point in time on.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a never held z some point in time on.,F G ! a,a never holds from some point in time on.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a jamais holds from certain point in time on.,F G ! a,a never holds from some point in time on.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una never holds from certain point in time on.,F G ! a,a never holds from some point in time on.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a never held from some point in time orn.,F G ! a,a never holds from some point in time on.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a and b do not hold, jim holds eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a and b do nope hold, c held eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a and ii doing not hold, c holds eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a and b doing not held, c holds eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a and b do not held, c held eventually.",G (!(a && b) -> F c),"Whenever a and b do not hold, c holds eventually.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a and b jamais occur at the same time but one of theirs holds in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a und b never occur at the same time but one of theirs holds in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a and b never occur at the same times but one of them holds in everything time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a and b never occur at du same time albeit one of them holds in every time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a and b never arise at the same time but one of them holds in everything time step.,G(!(a &&b)) && G(a || b),a and b never occur at the same time but one of them holds in every time step.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever the inputs a and b are the same, the outputs c and d be du same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever the input a and b are the selfsame, the outputs c and d are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever the inputs a and b be the same, the outputs jim and d are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever the inputs a and b be the same, the outputs c and d are du same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever the inputs a and b are the same, du outputs jim and d are the same.",G ((a <-> b) -> (c <-> d)),"Whenever the inputs a and b are the same, the outputs c and d are the same.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una can only happen unless b happend before.,(! a) U b,a can only happen if b happend before.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una can solely happen if b happend before.,(! a) U b,a can only happen if b happend before.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a can only arise if b happend beforehand.,(! a) U b,a can only happen if b happend before.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una can only happen if ii happend before.,(! a) U b,a can only happen if b happend before.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a can only arise if ii happend before.,(! a) U b,a can only happen if b happend before.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Once a happened, ii won't arise again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Once una happened, b won't happen anew.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Upon una happened, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Once a transpired, b won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",1.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Upon a happened, ii won't happen again.",G (a -> X G ! b),"Once a happened, b won't happen again.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una releases ii.,(b U (b & ! a)) | G b,a releases b.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una releasing b.,(b U (b & ! a)) | G b,a releases b.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una releasing b.,(b U (b & ! a)) | G b,a releases b.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una releases ii.,(b U (b & ! a)) | G b,a releases b.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a releasing ii.,(b U (b & ! a)) | G b,a releases b.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a und b won't occur under the same time.,G !(a & b),a and b won't occur at the same time.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a und b won't occur at the selfsame time.,G !(a & b),a and b won't occur at the same time.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una and b won't arise at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una and b won't occur at du same time.,G !(a & b),a and b won't occur at the same time.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una und b won't occur at the same time.,G !(a & b),a and b won't occur at the same time.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds and b held in the next step, then c holds one stepping after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds and b held onto the next step, then c holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a holds and b holds in the upcoming step, then c holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds and b holds in the next step, then c held uno step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a holds and b holds in the next stepping, then c holds one step after b.",G (a && X b -> X X c),"Whenever a holds and b holds in the next step, then c holds one step after b.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a holds, b holds eventually from the upcoming step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b held eventually from the next stepping on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever una holds, b holds eventually from the next step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b holds eventually z du next step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever una holds, ii holds eventually from the next step on.",G (a -> X F b),"Whenever a holds, b holds eventually from the next step on.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a holds in everything fifth stepping.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a holds in everything fifth stepping.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a holds onto everything fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a held in every fifth stepping.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a held in everything fifth step.,a && G (a -> X ! a && X X ! a && X X X ! a && X X X X ! a && X X X X X a),a holds in every fifth step.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either a holds infinitely often or b holds in du upcoming step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either a holds infinitely often orr b holds onto the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either a holds infinitely frequently or b holds in du next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either a holds infinitely often orr ii holds in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Either una holds infinitely often or b held in the next step.,G F a || X b,Either a holds infinitely often or b holds in the next step.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una volition hold at all instances.,G (a),a will hold at all instances.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a will hold under every instances.,G (a),a will hold at all instances.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a volition hold under all instances.,G (a),a will hold at all instances.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a will held at all example.,G (a),a will hold at all instances.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a will hold under every instances.,G (a),a will hold at all instances.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b must hold onto the next deux steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Wherever a holds, b must hold in the next two step.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, ii gotta hold in the next two steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b must hold in the upcoming deux steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Whenever a holds, b must hold onto the upcoming two steps.",G (a -> (b | X b)),"Whenever a holds, b must hold in the next two steps.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Uno du the following aps will hold at all instances: a,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"One of the hereafter aps will hold at all instances: una,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"Uno of the hereafter aps will hold at all instances: a,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"One of the hereafter aps volition hold at all instances: a,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"One of the following aps will hold at all example: una,b,c.",G (a | b | c),"One of the following aps will hold at all instances: a,b,c.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+If una holds b will ultimately hold.,G (a -> F b),If a holds b will eventually hold.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+If una holds ii will eventually hold.,G (a -> F b),If a holds b will eventually hold.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+If a held b will ultimately hold.,G (a -> F b),If a holds b will eventually hold.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+If a holds b volition eventually held.,G (a -> F b),If a holds b will eventually hold.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+If a held b volition eventually hold.,G (a -> F b),If a holds b will eventually hold.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a must perpetually held, but if is execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a must always hold, but if exists execeeds, it allow two timestamps pour recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a must always hold, but if exists execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",1.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a must perpetually hold, albeit if is execeeds, it allow two timestamps to recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"a must always hold, albeit if is execeeds, it allow two timestamps pour recover.",! G (! (a && X a)),"a must always hold, but if is execeeds, it allow two timestamps to recover.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+not una holds at most two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,1.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+nope a holds at most two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,1.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+not una holds at most deux timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+not una holds at most two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,1.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+not a holds at anymore two timestamps.,! G (! (a && X a)),not a holds at most two timestamps.,1.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a kan solely hold every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una can only held every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una can only held every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a can solely hold every three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a can only hold everything three timestamps.,G ( a -> (X !a | XX !a | XXX !a)),a can only hold every three timestamps.,1.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Everything una is followed by a b.,G ( a -> X b),Every a is followed by a b.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Every a is followed per una b.,G ( a -> X b),Every a is followed by a b.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Every una is tracked by a b.,G ( a -> X b),Every a is followed by a b.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Every a is tracked by a ii.,G ( a -> X b),Every a is followed by a b.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Everything a is followed by una b.,G ( a -> X b),Every a is followed by a b.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Ultimately a and ii hold.,F (a && b),Eventually a and b hold.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Ultimately una and b hold.,F (a && b),Eventually a and b hold.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Eventually a und ii hold.,F (a && b),Eventually a and b hold.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Eventually una and b held.,F (a && b),Eventually a and b hold.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Eventually a und ii hold.,F (a && b),Eventually a and b hold.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether una and b hold eventually.,F a && F b,Both a and b hold eventually.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Both a und ii hold eventually.,F a && F b,Both a and b hold eventually.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether a und b hold eventually.,F a && F b,Both a and b hold eventually.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether a and ii hold eventually.,F a && F b,Both a and b hold eventually.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+Whether a und b hold eventually.,F a && F b,Both a and b hold eventually.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is always du case that a is the same as b in the upcoming step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is always du case that a is the same because b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It exists always the case that una is the same as b in the next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is perpetually the case that a is the same as b in du next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+It is always the case that una is the same as b in du next step.,G (a <-> X b),It is always the case that a is the same as b in the next step.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds then, in the next step, c holds till una holds or always c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b held then, in the next step, c holds until a holds or always c held.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds then, onto the next stepping, c holds until a holds or always c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds then, in the next step, c holds until una holds or perpetually c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+"If b holds thereafter, in the next step, c holds until a holds or perpetually c holds.",b -> X ((c U a) || G c),"If b holds then, in the next step, c holds until a holds or always c holds.",2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una holds until b held or always a holds.,(a U b) || G a,a holds until b holds or always a holds.,2.0,1,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+una holds till b holds or always a holds.,(a U b) || G a,a holds until b holds or always a holds.,2.0,2,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a held till b holds or always a holds.,(a U b) || G a,a holds until b holds or always a holds.,2.0,3,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a held till b holds or always a holds.,(a U b) || G a,a holds until b holds or always a holds.,2.0,4,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
+a holds until ii holds or always a held.,(a U b) || G a,a holds until b holds or always a holds.,2.0,5,RandomWordsMutation,WordSwapEmbedding,WordEditDistance,2.0,5
